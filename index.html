@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58860ac1ce.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="portfolio">Port<span>folio</span></h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header_text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Wishma Noor</span><br> from Pakistan</h1>
+    
+            
+        </div>
+    </div>  
+</div>
+<!-----------About------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+              <img src="images/myself.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi,Welcome to my Portfolio.My name is Wishma Noor.I am Graphic Designer and Web Developer.Programming is my passion. I am working as a front end web developer for last three years with strong command on html, CSS, jQuery, scss, bootstrap and other html and CSS frameworks. I am an energetic,passionate,enthusiastic Web Developer.I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.I provide well structured, cross-browse compatibility, valid, adaptive, featured, clean, readable and maintainable code.Beside that I am expert in Graphic Designing.My skill set is a mix of both coding and design, and I wanted this to be prominent.I specialize in crafting eye-catching visuals that tell stories and make an impact.I am skilled at making colorful and creative flyer and brochure,memorable logos and banners and eye-catching postures.I consider myself, as a communicative,organized,responsible,hardworking and proactive person.</p>
+
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+           <div class="tab-contents active-tab" id="Skills">
+            <ul>
+                <li><span>Graphic Designing</span><br></li>
+                <li><span>Frontend Web Development</span><br></li>
+                <li><span>Python Programming</span><br></li>
+                <li><span>C++ Programming</span><br></li>
+                <li><span>Java Programming</span><br></li>
+                <li><span>Spoken English</span><br></li>
+                
+
+
+            </ul>
+           </div>
+
+           <div class="tab-contents" id="Experience">
+            <ul>
+                <li><span>2022</span><br>Graphic Designing from NS Training Center</li>
+                <li><span>2022-current</span><br>Freelancing from NS Training Center</li>
+                <li><span>2023</span><br>Python Programming from AICP community</li>
+                <li><span>2021</span><br>C++ programming from Fatima Jinnah Women University</li>
+                <li><span>2022</span><br>Java Programming from Fatima Jinnah Women University</li>
+                <li><span>2022</span><br>Frontend Web Development</li>
+                <li><span>2023</span><br>Spoken English from NS Training Center</li>
+
+                
+
+            </ul>
+           </div>
+
+           <div class="tab-contents" id="Education">
+            <ul>
+                <li><span>Matriculation</span><br>Honhaar Grammar School Rawat(2016-2018)</li><br>
+                <li><span>Intermediate</span><br>Superior Group of Colleges,Bahria Town Rawalpindi(2019-2021)</li> <br>
+                <li><span>Bachelor in Computer Science</span><br>Fatima Jinnah Women University(2021-Present)</li><br>
+                
+            </ul>
+           </div>
+           
+
+        </div>
+
+    </div>
+
+</div>
+</div>
+<!-------------Services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Welcome to our web development services! We are dedicated to crafting unique and effective digital solutions that cater to your specific business needs. With a team of experienced developers, designers, and strategists, we offer a comprehensive range of services to help you establish a strong online presence and achieve your goals.Furthermore,we specialize in creating visually appealing, user-friendly websites that adapt seamlessly across all devices</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Graphic Designing</h2>
+                <p>Welcome to our world of visual creativity and innovation! Our graphic design services are dedicated to bringing your ideas to life through compelling and captivating designs.We specialize in crafting unique, memorable, and versatile designs that encapsulate your brand's essence and resonate with your target audience.Furthermore,we create eye-catching web banners, icons, illustrations, and other visual elements that elevate your website's aesthetics and user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-dev"></i>
+                <h2>C++ Programming</h2>
+                <p>Welcome to our C++ programming services, where innovation and efficiency meet in the world of code. With a passion for problem-solving and a deep understanding of C++, we offer a wide range of programming solutions that empower businesses and individuals to achieve their goals through cutting-edge technology.Harness the power of C++ to develop robust, high-performance software applications tailored to your specific needs. </p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+<!-----------Portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/web.jpg">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>It has a speaciality in creating visually appealing, user-friendly websites that adapt seamlessly across all devices</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/graphic.jpg">
+                <div class="layer">
+                    <h3>Graphic Designing</h3>
+                    <p>It has a speaciality in crafting unique, memorable, and versatile designs that encapsulate your brand's essence and resonate with your target audience.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/code.jpg">
+                <div class="layer">
+                    <h3>C++ Programming</h3>
+                    <p> With a passion for problem-solving and a deep understanding of C++, we offer a wide range of programming solutions that empower businesses and individuals to achieve their goals through cutting-edge technology.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+          <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>wishmanoor679@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>0345-0515175</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/wishma-noor-984164287"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/wishma.no0r?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+
+                </div>
+                <a href="images/mycv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created by Wishma Noor|© All Rights Reserved </p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+            
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+    
+</script>
+</body>
+</html>
